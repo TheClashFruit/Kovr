@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "kovr",
+  "version": "${version}",
+  "name": "Kovr",
+  "description": "Backup your settings, select configs and worlds to the cloud. No more re-configuring each on of your instances.",
+  "authors": [
+    "TheClashFruit"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/kovr/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.theclashfruit.kovr.client.KovrClient"
+    ],
+    "main": [
+      "me.theclashfruit.kovr.Kovr"
+    ],
+    "preLaunch": [
+      "me.theclashfruit.kovr.KovrPrelaunch"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
