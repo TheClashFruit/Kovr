@@ -1,0 +1,12 @@
+# This is a file defining what configs to back up.
+# Syntax is similar to `.gitinore`.
+
+**/*.conf
+**/*.json
+**/*.toml
+**/*.yml
+**/*.yaml
+**/*.properties
+
+# Don't forget options :3
+options.txt

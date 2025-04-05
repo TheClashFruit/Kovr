@@ -1,0 +1,5 @@
+{
+  "type": "kovr:write_file",
+  "value": "#config",
+  "file": "backup_rules.kovr"
+}

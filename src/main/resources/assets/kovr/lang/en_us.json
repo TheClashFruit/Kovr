@@ -1,0 +1,12 @@
+{
+  "screen.kovr.generic.save": "Save",
+  "screen.kovr.generic.saved": "§2Saved",
+  "screen.kovr.generic.docs": "Docs",
+
+  "screen.kovr.config.account": "Your Account",
+  "screen.kovr.config.logged_in": "Logged in as: §7§o{username}",
+  "screen.kovr.config.storage": "Storage Used: §7{used}§7%",
+
+  "screen.kovr.config.backup_rules": "Backup Rules",
+  "screen.kovr.config.placeholder": "Enter your config here..."
+}

@@ -20,8 +20,14 @@
     ],
     "preLaunch": [
       "me.theclashfruit.kovr.KovrPrelaunch"
+    ],
+    "modmenu": [
+      "me.theclashfruit.kovr.client.ModMenuCompat"
     ]
   },
+  "mixins": [
+    "kovr.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",

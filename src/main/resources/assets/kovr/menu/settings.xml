@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HorizontalLayout gap="8">
+    <VerticalLayout gap="4">
+        <Text>screen.kovr.config.account</Text>
+
+        <VerticalLayout gap="2">
+            <Text>screen.kovr.config.logged_in</Text>
+            <Text>screen.kovr.config.storage</Text>
+        </VerticalLayout>
+
+        <Button width="150" height="20" href="https://theclashfruit.me/donate">Get More Storage</Button>
+    </VerticalLayout>
+    <VerticalLayout gap="4">
+        <Text>screen.kovr.config.backup_rules</Text>
+
+        <EditBox id="config" width="300" height="200" placeholder="screen.kovr.config.placeholder" file="backup_rules.kovr" />
+
+        <HorizontalLayout gap="2">
+            <Button width="249" height="20" action="kovr:action/save.json">screen.kovr.generic.save</Button>
+            <Button width="49" height="20" href="https://kovr.theclashfruit.me">screen.kovr.generic.docs</Button>
+        </HorizontalLayout>
+    </VerticalLayout>
+</HorizontalLayout>
